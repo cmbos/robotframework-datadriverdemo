@@ -1,0 +1,5 @@
+*** Test Cases ***;${username};${password}
+Right user empty pass;demo;${EMPTY}
+Right user wrong pass;demo;FooBar
+Empty username;${EMPTY};mode
+Username and password empty;${EMPTY};${EMPTY}
